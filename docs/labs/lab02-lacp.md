@@ -11,7 +11,7 @@
 ### 3. 실제 결과
 - `show etherchannel summary` 확인 결과 `Po1(SU)` 및 두 포트 모두 `bundled(P)` 상태로 정상 결합됨.
 - Wireshark 패킷 분석을 통해 Slow-Protocols 멀티캐스트(`01-80-C2-00-00-02`) 주소로 교환되는 LACPDU 프레임(Actor/Partner System ID 및 State)을 확인 완료.
-- 캡처 이미지: `packet-analysis/lacp/lacp-packet.png`
+- 캡처 이미지: `packet-analysis/lacp/lacp-aggregate.png`
 
 ### 4. 결론
 - LACP 기반 포트채널 번들링이 정상 수렴되었으며, 다중 VLAN 트래픽을 수용할 수 있는 고가용성 L2 인터링크가 완성됨을 검증했다.

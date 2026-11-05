@@ -1,4 +1,4 @@
-## LAB 01-5 — HSRP (Hot Standby Router Protocol) 및 STP-FHRP Alignment
+## LAB 04 — HSRP (Hot Standby Router Protocol) 및 STP-FHRP Alignment
 
 ### 1. 설계 목적
 - DSW1과 DSW2의 SVI(VLAN 10, 20)에 HSRPv1을 구성하여 기본 게이트웨이(Default Gateway)의 무중단 고가용성(HA)을 확보함.

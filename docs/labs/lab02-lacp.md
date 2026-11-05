@@ -1,4 +1,4 @@
-## LAB 01-3 — LACP (Link Aggregation Control Protocol) 및 Failover
+## LAB 02 — LACP (Link Aggregation Control Protocol) 및 Failover
 
 ### 1. 설계 목적
 - DSW1과 DSW2 사이의 물리 링크 2개(Gi0/0, Gi0/1)를 논리적인 하나의 인터페이스(Po1)로 묶어 대역폭을 확장하고 링크 이중화를 구현함.
